@@ -32,7 +32,7 @@ bash step_1_QC_bracken_pipeline.sh
 
 python3 step_2_annotation_and_combination.py
 
-Outputs
+**Outputs**
 
 Outputs include trimmed FASTQ files, fastp quality-control reports, host-depleted reads, Kraken2 classification reports, Bracken species-level abundance estimates, taxonomically annotated per-sample TSV files and a consolidated combined_species_abundance.csv dataset.
 
